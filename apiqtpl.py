@@ -231,7 +231,7 @@ class API_PlanetLabs(QtCore.QObject):
   validKey = None
   urlRoot = "https://api.planet.com"
   urlQuickSearch = "https://api.planet.com/data/v1/quick-search"
-  urlThumbnail = "https://api.planet.com/data/v1/item-types/{item_type}/items/{item_id}/thumb"
+  urlThumbnail = "https://tiles.planet.com/data/v1/item-types/{item_type}/items/{item_id}/thumb"
   urlTMS = "https://tiles.planet.com/data/v1/{item_type}/{item_id}/{{z}}/{{x}}/{{y}}.png"
   urlAssets = "https://api.planet.com/data/v1/item-types/{item_type}/items/{item_id}/assets" 
 
